@@ -8,7 +8,7 @@ Assuming you've already decided you need to write TSV, why this library:
 - Reliable. Because macros are used, if the library doesn't know how to serialize something, you'll know at compile time.
 - Extensible. Define implicit formatters for any of your types which are automatically used by the case-class macro generators.
 
-Example usage:
+# Example
 
 ```scala
 package demo
@@ -61,3 +61,15 @@ object Main extends App {
   println(output) // le TSV !
 }
 ```
+
+# Support
+
+Report issues here.
+
+# Author
+
+Tim Harper
+
+# License
+
+Apache 2 (see LICENSE file in repo)

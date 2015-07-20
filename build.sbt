@@ -1,5 +1,3 @@
-
-
 val commonSettings = Seq(
   organization := "com.spingo",
   sbtVersion := "0.13",

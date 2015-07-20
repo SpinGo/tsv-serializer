@@ -8,6 +8,16 @@ Assuming you've already decided you need to write TSV, why this library:
 - Reliable. Because macros are used, if the library doesn't know how to serialize something, you'll know at compile time.
 - Extensible. Define implicit formatters for any of your types which are automatically used by the case-class macro generators.
 
+# Getting
+
+```scala
+resolvers ++= Seq(
+  "SpinGo OSS" at "http://spingo-oss.s3.amazonaws.com/repositories/releases"
+)
+
+libraryDependencies += "com.spingo" %% "tsv-serializer" % "0.1.1"
+```
+
 # Example
 
 ```scala
